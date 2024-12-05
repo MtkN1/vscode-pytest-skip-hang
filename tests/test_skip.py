@@ -13,4 +13,5 @@ def docker_client() -> object:
 
 
 def test_hang(docker_client):
+    # Running the test in VS Code will hang.
     assert ...
